@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.outer-wrapper,.outer-wrapper1{
+    
+    display: inline-block;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 30px;
+    padding: 7%;
+}
+
+.outer-wrapper1{
+    display: none;
+}
+.thx-img{
+    display: block;
+    margin: auto;
+    margin-bottom: 7%;
+}
+.outputWrapper{
+    width: fit-content;
+    margin: auto;
+    padding: 2px 8px;
+    font-family: 'Overpass';
+    font-size: 15px;
+    background-color:hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.star-wrapper,.number-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(220, 14%, 21%);
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.number-wrapper:hover{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+.number-wrapper:active{
+    background-color:hsl(25, 97%, 53%);
+}
+
+.number-wrapper.selected {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+  }
+
+.txt-title{
+    font-family: 'Overpass';
+    font-weight: 700;
+    color: white;
+}
+
+.txt-description{
+    font-family: 'Overpass';
+    color: hsl(217, 12%, 63%);
+}
+
+.rating-wrapper{
+    font-family: 'Overpass';
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#submit{
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    padding: 3%;
+    margin-top: 7%;
+    border-radius: 35px;
+}
+
+#submit:hover{
+    color: white;
+    background-color:hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+#submit:active{
+    opacity: 0.7;
+}
+
+footer{
+bottom: 0;    
+width: 100%;
+height: 5%;
+position: fixed;
+background-color:hsl(220, 14%, 21%);
+}
+.attribution { 
+    text-align: center;
+    color: aliceblue;
+    font-size: 11px; text-align: center; 
+    position: fixed;
+    margin:auto; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+.attribution a { 
+    color: hsl(141, 14%, 55%); 
+    text-decoration: none;
+
+}
